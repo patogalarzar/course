@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("../imgs/aceleradora.jpg");
+  }
+}
+body {
+	/* Ubicacion de la imagen */
+	background-image: url("../imgs/working.jpg");
+	/* Nos aseguramos que la imagen de fondo este centrada vertical y
+    horizontalmente en todo momento */
+	background-position: center center;
+
+	/* La imagen de fondo no se repite */
+	background-repeat: no-repeat;
+
+	/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+	 la altura del contenido supere la altura de la imagen. */
+	background-attachment: fixed;
+
+	/* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+	 del navegador */
+	background-size: cover;
+
+	/* Fijamos un color de fondo para que se muestre mientras se está
+	cargando la imagen de fondo o si hay problemas para cargarla  */
+	background-color: #464646;
+
+	/* ---------------------------------------------------------- */
+	color: #48A2DD;
+	display: flex;
+    font-family: 'Source Sans Pro';
+    min-height: 100vh;
+    margin: 0;
+}
+div {
+	margin: auto;
+	text-align:center;
+}
+h1 {
+	margin: 20px auto;
+    font-size: 60px;
+}
+h3 {
+	margin: 20px auto;
+    font-size: 32px;
+}
+a {
+	margin: 10px auto;
+	text-decoration: none;
+    border: 2px solid #5fa9c5;
+    padding: 10px;
+    /*width: 200px;*/
+    border-radius: 5px;
+    color: #5fa9c5;
+    font-size: 24px
+}
+p {
+	font-size: 24px;
+}
